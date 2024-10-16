@@ -13,6 +13,7 @@ const carrinhoSlice = createSlice({
   name: 'carrinho',
   initialState,
   reducers: {
+    // nome dado pelo toolkit: carrinho/adicionar
     adicionar: (state, action: PayloadAction<Game>) => {
       const jogo = action.payload
 
